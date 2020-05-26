@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../model/user');
 const validationMiddleWare = require('../middleWares/validation')
-const authenticationmiddleWare = require('../middlewares/authentecation');
+const authenticationmiddleWare = require('../middleWares/authentecation');
 require('express-async-errors');
 const CustomError = require('../helpers/cutomError')
 

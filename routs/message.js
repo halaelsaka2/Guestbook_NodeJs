@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Message = require("../model/message");
 const authorizationMiddleWare = require("../middleWares/authorizationMessage");
-const authenticationmiddleWare = require("../middlewares/authentecation");
+const authenticationmiddleWare = require("../middleWares/authentecation");
 require("express-async-errors");
 
 module.exports = router;

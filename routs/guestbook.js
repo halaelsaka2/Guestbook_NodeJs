@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Guestbook = require('../model/guestbook');
-const authenticationmiddleWare = require('../middlewares/authentecation');
+const authenticationmiddleWare = require('../middleWares/authentecation');
 require('express-async-errors');
 const _ = require('lodash')
 
